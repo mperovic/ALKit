@@ -222,13 +222,16 @@
 					B277AEE71BD9B5D90036AF3E = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 9RP9MNMA7G;
+						LastSwiftMigration = 0830;
 					};
 					B277AEFB1BD9B5D90036AF3E = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = B277AEE71BD9B5D90036AF3E;
 					};
 					B277AF061BD9B5D90036AF3E = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = B277AEE71BD9B5D90036AF3E;
 					};
 				};
@@ -436,6 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prototapp.ALKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -449,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prototapp.ALKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -460,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prototapp.ALKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALKit.app/ALKit";
 			};
 			name = Debug;
@@ -472,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prototapp.ALKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALKit.app/ALKit";
 			};
 			name = Release;
@@ -483,6 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prototapp.ALKitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ALKit;
 				USES_XCTRUNNER = YES;
 			};
@@ -495,6 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prototapp.ALKitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ALKit;
 				USES_XCTRUNNER = YES;
 			};
